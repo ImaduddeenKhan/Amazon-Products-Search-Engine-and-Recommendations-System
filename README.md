@@ -65,7 +65,7 @@ streamlit run app.py
 
 > Note: The current app only needs `punkt` for tokenization. `SnowballStemmer` ships with NLTK, and stopwords are not used in this version.
 
-**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note mixed casing): `id`, `Title`, `Description`, `Category`. This matches the source dataset, and the app expects these exact names unless you normalize them in code (e.g., all lowercase) and update the app accordingly.
+**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note mixed casing): `id`, `Title`, `Description`, `Category`. This matches the source dataset, and the app expects these exact names. Normalize only if you also update the app to match your custom headers.
 
 ## 📂 Project Structure
 ```
@@ -90,4 +90,4 @@ Contributions are welcome!
 4. Open a pull request with a clear description
 
 ## 📜 License
-No license is specified yet (default: all rights reserved). For permissions or licensing questions, please open an issue or contact the repository owner.
+This project does not currently have a specified license. For permissions or licensing questions, please open an issue or contact the repository owner.
