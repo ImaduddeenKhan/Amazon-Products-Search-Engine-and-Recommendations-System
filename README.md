@@ -4,7 +4,7 @@
 A Streamlit web app that transforms product queries into **top-10 relevant recommendations** using TF-IDF and cosine similarity — ideal for showcasing practical ML + NLP skills in e-commerce.
 
 ![Build](https://img.shields.io/badge/build-manual-lightgrey)
-![License](https://img.shields.io/badge/license-Not%20specified-lightgrey)
+![License](https://img.shields.io/badge/license-not%20specified-lightgrey)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![Streamlit](https://img.shields.io/badge/streamlit-1.x-FF4B4B)
 ![Scikit-Learn](https://img.shields.io/badge/scikit--learn-ML-F7931E)
@@ -43,7 +43,7 @@ This project delivers a compact yet powerful **search + recommendation engine** 
 - **Streamlit** for the web interface
 
 ## 📸 Screenshots / Demo
-![Streamlit app interface showing product search results](img.jpeg)
+![Screenshot of the Streamlit interface displaying a product search query and the top-10 ranked product recommendations with titles and descriptions](img.jpeg)
 
 ## ⚙️ Installation & Setup
 > Requires Python 3.x
@@ -65,7 +65,7 @@ streamlit run app.py
 
 > Note: The current app only needs `punkt` for tokenization. `SnowballStemmer` ships with NLTK, and stopwords are not used in this version.
 
-**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note mixed casing and lowercase `id`): `id`, `Title`, `Description`, `Category`. This matches the source dataset, and the app expects these exact names unless you normalize them in code.
+**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note mixed casing and lowercase `id`): `id`, `Title`, `Description`, `Category`. This matches the source dataset, and the app expects these exact names unless you normalize them in code (e.g., all lowercase) and update the app accordingly.
 
 ## 📂 Project Structure
 ```
