@@ -43,7 +43,7 @@ This project delivers a compact yet powerful **search + recommendation engine** 
 - **Streamlit** for the web interface
 
 ## 📸 Screenshots / Demo
-![Streamlit Demo](img.jpeg)
+![Streamlit app interface showing product search results](img.jpeg)
 
 ## ⚙️ Installation & Setup
 > Requires Python 3.x
@@ -65,7 +65,7 @@ streamlit run app.py
 
 > Note: The current app only needs `punkt` for tokenization. `SnowballStemmer` ships with NLTK, and stopwords are not used in this version.
 
-**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note lowercase `id`): `id`, `Title`, `Description`, `Category`.
+**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note mixed casing and lowercase `id`): `id`, `Title`, `Description`, `Category`. Keep these headers as-is unless you update the app to match.
 
 ## 📂 Project Structure
 ```
