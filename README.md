@@ -56,14 +56,14 @@ source .venv/bin/activate  # Windows: .venv\Scripts\activate
 # 2) Install dependencies
 pip install pandas numpy nltk scikit-learn streamlit pillow
 
-# 3) Download required NLTK data
+# 3) Download required NLTK data (punkt is required for word_tokenize)
 python -m nltk.downloader punkt
 
 # 4) Run the app
 streamlit run app.py
 ```
 
-**Dataset:** The included `amazon_product.csv` must remain in the project root. If you replace it, keep the columns: `id`, `Title`, `Description`, `Category`.
+**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header: `id`, `Title`, `Description`, `Category`.
 
 ## 📂 Project Structure
 ```
