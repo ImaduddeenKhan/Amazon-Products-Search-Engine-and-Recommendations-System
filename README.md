@@ -1,7 +1,7 @@
 # 🛍️ Amazon Product Search & Recommendation Engine
 **NLP-powered search and recommendations over real Amazon catalog data.**
 
-A Streamlit web app that transforms product queries into **top‑10 relevant recommendations** using TF‑IDF and cosine similarity — ideal for showcasing practical ML + NLP skills in e‑commerce.
+A Streamlit web app that transforms product queries into **top-10 relevant recommendations** using TF-IDF and cosine similarity — ideal for showcasing practical ML + NLP skills in e-commerce.
 
 ![Build](https://img.shields.io/badge/build-manual-lightgrey)
 ![License](https://img.shields.io/badge/license-Not%20specified-lightgrey)
@@ -12,34 +12,34 @@ A Streamlit web app that transforms product queries into **top‑10 relevant rec
 
 ---
 
-## ✅ At a Glance (1‑Minute Summary)
-- **What it does:** Searches an Amazon‑style catalog and returns the **10 most similar products** to any query.
+## ✅ At a Glance (1-Minute Summary)
+- **What it does:** Searches an Amazon-style catalog and returns the **10 most similar products** to any query.
 - **Why it matters:** Demonstrates how search and recommendation engines power product discovery at scale.
-- **Key features:** NLP preprocessing, TF‑IDF vectorization, cosine similarity ranking, Streamlit UI.
-- **Tech stack:** Python, Pandas, NLTK, scikit‑learn, Streamlit.
+- **Key features:** NLP preprocessing, TF-IDF vectorization, cosine similarity ranking, Streamlit UI.
+- **Tech stack:** Python, Pandas, NLTK, scikit-learn, Streamlit.
 
 ---
 
 ## 🚀 Project Overview
-This project delivers a compact yet powerful **search + recommendation engine** over real product metadata. Users type a product query, and the system surfaces the most relevant items based on semantic similarity. It’s a clean, production‑style demo of how modern e‑commerce search works under the hood.
+This project delivers a compact yet powerful **search + recommendation engine** over real product metadata. Users type a product query, and the system surfaces the most relevant items based on semantic similarity. It’s a clean, production-style demo of how modern e-commerce search works under the hood.
 
 ## 🧠 Problem & Solution
 **Problem:** Large online catalogs make it hard to quickly find the best matching products.
 
-**Solution:** An NLP pipeline that preprocesses product text, converts it to vectors with TF‑IDF, and ranks results with cosine similarity — all wrapped in an interactive UI for instant exploration.
+**Solution:** An NLP pipeline that preprocesses product text, converts it to vectors with TF-IDF, and ranks results with cosine similarity — all wrapped in an interactive UI for instant exploration.
 
 ## ✨ Features
-- **Top‑10 ranked recommendations** for any query
+- **Top-10 ranked recommendations** for any query
 - **Real Amazon dataset** (Title, Description, Category)
 - **NLP preprocessing** (tokenization + stemming)
-- **TF‑IDF vectorization** for semantic relevance
+- **TF-IDF vectorization** for semantic relevance
 - **Streamlit UI** for fast, clean interaction
 
 ## 🛠 Tech Stack
 - **Python**
 - **Pandas** for data handling
 - **NLTK** for tokenization and stemming
-- **scikit‑learn** for TF‑IDF and cosine similarity
+- **scikit-learn** for TF-IDF and cosine similarity
 - **Streamlit** for the web interface
 
 ## 📸 Screenshots / Demo
@@ -75,7 +75,7 @@ streamlit run app.py
 ```
 
 ## 🔮 Future Improvements
-- Query spell‑correction and autocomplete
+- Query spell-correction and autocomplete
 - Model caching for faster startup
 - Scalable vector search (FAISS / ANN)
 - Deployed public demo
