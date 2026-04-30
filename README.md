@@ -63,7 +63,7 @@ python -m nltk.downloader punkt
 streamlit run app.py
 ```
 
-**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header: `id`, `Title`, `Description`, `Category`.
+> Note: The current app only needs `punkt` for tokenization. `SnowballStemmer` ships with NLTK, and stopwords are not used in this version.\n+\n+**Dataset:** The included `amazon_product.csv` must remain in the project root. Current header (note lowercase `id`): `id`, `Title`, `Description`, `Category`.
 
 ## 📂 Project Structure
 ```
